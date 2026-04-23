@@ -1,0 +1,79 @@
+############################
+# OS FILES
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# PYTHON (detector-python)
+############################
+detector-python/venv/
+detector-python/__pycache__/
+detector-python/*.pyc
+detector-python/*.pyo
+detector-python/*.pyd
+
+# YOLO weights (large file)
+detector-python/yolov8n.pt
+
+# uploads & outputs
+detector-python/uploads/
+detector-python/output/
+detector-python/processed/
+
+############################
+# JAVA (Spring Boot)
+############################
+backend-java/target/
+backend-java/*.log
+
+# IDE files
+backend-java/.classpath
+backend-java/.project
+backend-java/.settings/
+
+############################
+# NODE / REACT (frontend)
+############################
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+############################
+# ENV FILES
+############################
+.env
+.env.*
+*.env
+
+############################
+# IDE FILES
+############################
+.vscode/
+.idea/
+
+############################
+# TEMP FILES
+############################
+*.log
+*.tmp
+*.cache
+
+############################
+# VIDEOS (VERY IMPORTANT)
+############################
+*.mp4
+*.avi
+*.mov
+
+############################
+# MISC
+############################
+*.zip
+*.tar
+*.gz
